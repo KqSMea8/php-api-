@@ -2,14 +2,14 @@
 namespace app\admin\controller;
 
 use think\Controller;
-use app\admin\controller\base;
+use app\admin\controller\Base;
 use think\Request;
 use app\common\lib\upload;
 
 /**
  * 图片上传
  */
-class Image extends base
+class Image extends Base
 {
 	/*
 	七牛云上传图片

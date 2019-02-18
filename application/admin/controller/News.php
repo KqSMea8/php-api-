@@ -2,10 +2,10 @@
 namespace app\admin\controller;
 
 use think\Controller;
-use app\admin\controller\base;
+use app\admin\controller\Base;
 use think\Request;
 
-class News extends base
+class News extends Base
 {
     public function index(Request $reuest)
     {

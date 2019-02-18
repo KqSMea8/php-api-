@@ -5,14 +5,15 @@ use think\Controller;
 use think\Request;
 use common\model\AdminUser;
 use app\common\lib\IAuth;
-use app\admin\controller\base;
+use app\admin\controller\Base;
 
-class Admin extends base
+class Admin extends Base
 {
     public function add()
     {
     	//判断是否是post提交
     	if (request()->isPost()) {
+            $this->model = 'AdminUser';
     		$param = request()->param();
     		$validate = validate('AdminUser');
     		if (!$validate->check($param)) {

@@ -16,7 +16,7 @@ return [
     'captcha' => [
         'useCurve' => false,
         'useNoise' => false,
-        'length' => 4,
+        'length'
         // 'imageH' => 40,
         // 'imageW' => 170,
     ],
@@ -32,7 +32,7 @@ return [
     'auto_bind_module'       => false,
     // 注册的根命名空间
     'root_namespace'         => [],
-    // 扩展函数文件
+    // 扩展函数文件 => 4,
     'extra_file_list'        => [THINK_PATH . 'helper' . EXT],
     // 默认输出类型
     'default_return_type'    => 'html',

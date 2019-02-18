@@ -6,9 +6,9 @@ use think\Request;
 use common\model\AdminUser;
 use app\common\lib\IAuth;
 use think\Session;
-use app\admin\controller\base;
+use app\admin\controller\Base;
 
-class Login extends base
+class Login extends Base
 {
     //覆盖base的init
     protected function _initialize()
