@@ -16,7 +16,7 @@ return [
     'captcha' => [
         'useCurve' => false,
         'useNoise' => false,
-        'length'
+        'length' => 4,
         // 'imageH' => 40,
         // 'imageW' => 170,
     ],
@@ -244,6 +244,6 @@ return [
     'paginate'               => [
         'type'      => 'bootstrap',
         'var_page'  => 'page',
-        'list_rows' => 3,
+        'list_rows' => 2,
     ],
 ];

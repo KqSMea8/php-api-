@@ -14,6 +14,10 @@ use think\Cache;
  */
 class Common extends Controller
 {
+    public $page = 1;//当前页
+    public $size = 10;//每页数量
+    public $start = 0;//起始值
+
     /**
      * header头
      * @var string
@@ -99,5 +103,34 @@ class Common extends Controller
         // // 
         // // 解密
         // echo $aes->decrypt($aes_str); exit();
+    }
+
+    /**
+     * 获取处理的新闻的内容数据
+     * @param  array  $news [description]
+     * @return [type]       [description]
+     */
+    protected function getDealNews($news = [])
+    {
+        if (empty($news)) {
+            return [];
+        }
+        $cats = config('cat.lists');
+
+        foreach ($news as $key => $new) {
+            $news[$key]['catName'] = isset($cats[$new['catId']]) ? $cats[$new['catId']] : '--';
+        }
+        return $news;
+    }
+
+    /**
+     * 获取分页的page size
+     * @return [type] [description]
+     */
+    public function getPageSize($data)
+    {
+        $this->page = empty($data['page']) ? 1 : $data['page'];
+        $this->size = empty($data['size']) ? config('paginate.list_rows') : $data['size'];
+        $this->start = ($this->page -1) * $this->size;
     }
 }

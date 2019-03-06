@@ -7,7 +7,19 @@ namespace Composer\Autoload;
 class ComposerStaticInit2bc4f313dba415539e266f7ac2c87dcd
 {
     public static $files = array (
+        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'd767e4fc2dc52fe66584ab8c6684783e' => __DIR__ . '/..' . '/adbario/php-dot-notation/src/helpers.php',
+        '65fec9ebcfbb3cbb4fd0d519687aea01' => __DIR__ . '/..' . '/danielstjules/stringy/src/Create.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        'b067bc7112e384b61c701452d53a14a8' => __DIR__ . '/..' . '/mtdowling/jmespath.php/src/JmesPath.php',
         '9b552a3cc426e3287cc811caefa3cf53' => __DIR__ . '/..' . '/topthink/think-helper/src/helper.php',
+        '4e66b0302c5365a258da95ac48c898b4' => __DIR__ . '/..' . '/alibabacloud/client/src/Constants/Business.php',
+        '8edfd8536faf1ddbd3387572b4787747' => __DIR__ . '/..' . '/alibabacloud/client/src/Constants/ErrorCode.php',
+        '66453932bc1be9fb2f910a27947d11b6' => __DIR__ . '/..' . '/alibabacloud/client/src/Functions.php',
+        'cd504dd38cbb5730802cddd1e32ff434' => __DIR__ . '/..' . '/alibabacloud/client/src/Load.php',
         '841780ea2e1d6545ea3a253239d59c05' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/functions.php',
         '1cfd2761b63b0a29ed23657ea394cb2d' => __DIR__ . '/..' . '/topthink/think-captcha/src/helper.php',
         'ddc3cd2a04224f9638c5d0de6a69c7e3' => __DIR__ . '/..' . '/topthink/think-migration/src/config.php',
@@ -26,6 +38,10 @@ class ComposerStaticInit2bc4f313dba415539e266f7ac2c87dcd
             'think\\captcha\\' => 14,
             'think\\' => 6,
         ),
+        'c' => 
+        array (
+            'clagiordano\\weblibs\\configmanager\\' => 34,
+        ),
         'a' => 
         array (
             'app\\' => 4,
@@ -34,13 +50,34 @@ class ComposerStaticInit2bc4f313dba415539e266f7ac2c87dcd
         array (
             'Workerman\\' => 10,
         ),
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Stringy\\' => 8,
+        ),
         'Q' => 
         array (
             'Qiniu\\' => 6,
         ),
         'P' => 
         array (
+            'Psr\\Http\\Message\\' => 17,
             'Phinx\\' => 6,
+        ),
+        'J' => 
+        array (
+            'JmesPath\\' => 9,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Psr7\\' => 16,
+            'GuzzleHttp\\Promise\\' => 19,
+            'GuzzleHttp\\' => 11,
+        ),
+        'A' => 
+        array (
+            'AlibabaCloud\\Client\\' => 20,
+            'Adbar\\' => 6,
         ),
     );
 
@@ -79,6 +116,10 @@ class ComposerStaticInit2bc4f313dba415539e266f7ac2c87dcd
             1 => __DIR__ . '/..' . '/topthink/think-image/src',
             2 => __DIR__ . '/..' . '/topthink/think-queue/src',
         ),
+        'clagiordano\\weblibs\\configmanager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/clagiordano/weblibs-configmanager/src',
+        ),
         'app\\' => 
         array (
             0 => __DIR__ . '/../..' . '/application',
@@ -87,13 +128,49 @@ class ComposerStaticInit2bc4f313dba415539e266f7ac2c87dcd
         array (
             0 => __DIR__ . '/..' . '/workerman/workerman',
         ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Stringy\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/danielstjules/stringy/src',
+        ),
         'Qiniu\\' => 
         array (
             0 => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu',
         ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
         'Phinx\\' => 
         array (
             0 => __DIR__ . '/..' . '/topthink/think-migration/phinx/src/Phinx',
+        ),
+        'JmesPath\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mtdowling/jmespath.php/src',
+        ),
+        'GuzzleHttp\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'GuzzleHttp\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
+        ),
+        'GuzzleHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'AlibabaCloud\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/alibabacloud/client/src',
+        ),
+        'Adbar\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/adbario/php-dot-notation/src',
         ),
     );
 

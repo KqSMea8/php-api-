@@ -135,6 +135,7 @@ if (!function_exists('input')) {
             // 默认为自动判断
             $method = 'param';
         }
+
         if (isset($has)) {
             return request()->has($key, $method, $default);
         } else {

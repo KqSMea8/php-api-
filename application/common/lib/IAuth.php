@@ -5,6 +5,9 @@ namespace app\common\lib;
 use app\common\lib\Aes;
 use app\common\lib\exception\ApiException;
 use think\Cache;
+use AlibabaCloud\Client\AlibabaCloud;
+use AlibabaCloud\Client\Exception\ClientException;
+use AlibabaCloud\Client\Exception\ServerException;
 
  /**
   * 
